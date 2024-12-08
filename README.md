@@ -1,6 +1,6 @@
 # **Inventory Management System**
 
-A robust inventory management system built with **React** (frontend) and **Django REST Framework** (backend). This app enables users to manage inventory items with features like adding, viewing, updating, and deleting records. It’s designed for businesses to efficiently track their inventory.
+A inventory management system built with **React** (frontend) and **Django REST Framework** (backend). This app enables users to manage inventory items with features like adding, viewing, updating, and deleting records. It’s designed for businesses to efficiently track their inventory.
 
 ---
 
@@ -111,11 +111,7 @@ inventory-management-system/
 
 ### Home Page
 
-![Home Page](placeholder-for-screenshot-1.png)
-
-### Add Item
-
-![Add Item](placeholder-for-screenshot-2.png)
+![Home Page](Home.png)
 
 ---
 
@@ -149,6 +145,47 @@ npm test
 ### **Backend**
 
 Django API tests can be added using `pytest` or Django's built-in testing framework.
+
+---
+
+## **Database Structure**
+
+The database used in this project is **SQLite**, and it has one primary table called `inventory_item` which stores all the inventory details.
+
+### **Table: `inventory_item`**
+
+| Field Name    | Data Type             | Description                                                   |
+| ------------- | --------------------- | ------------------------------------------------------------- |
+| `id`          | Integer (Primary Key) | Auto-incrementing unique identifier for each item.            |
+| `name`        | CharField             | Name of the item (maximum 255 characters).                    |
+| `description` | TextField             | Detailed description of the inventory item.                   |
+| `quantity`    | IntegerField          | The number of items in stock.                                 |
+| `price`       | DecimalField          | The cost of the item (up to 10 digits, 2 decimals).           |
+| `date_added`  | DateField             | The date the item was added to the inventory, auto-populated. |
+
+### **Example Data**
+
+| `id` | `name`             | `description`                     | `quantity` | `price` | `date_added` |
+| ---- | ------------------ | --------------------------------- | ---------- | ------- | ------------ |
+| 1    | Blue Tennis Racket | A high-quality tennis racket.     | 5          | 1500.00 | 2024-12-07   |
+| 2    | Red Tennis Racket  | A durable and lightweight racket. | 10         | 2000.00 | 2024-12-07   |
+
+---
+
+### **Database Relationships**
+
+Since this is a simple inventory management system, there are no relationships between tables (e.g., foreign keys). However, the `inventory_item` table can be expanded to include categories, suppliers, or any other necessary relationships in the future.
+
+---
+
+### **Database Commands**
+
+Here are some useful SQL commands for interacting with the database directly:
+
+1. **View All Items**:
+   ```sql
+   SELECT * FROM inventory_item;
+   ```
 
 ## **Developers**
 
