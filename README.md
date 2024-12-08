@@ -189,9 +189,9 @@ Here are some useful SQL commands for interacting with the database directly:
 
 ## **Developers**
 
-| **Name**                      | **Picture**                                                                                               |
-| ----------------------------- | --------------------------------------------------------------------------------------------------------- |
-| **Vivencio B. Bataga II**     | <img src="assets/Bataga.jpg" alt="Vivencio Bataga II" width="150" style="border-radius: 50%;"/>           |
-| **Tristan Vincent C. Lemana** | <img src="assets/Lemana.jpg" alt="Tristan Vincent C. Lemana" width="150" style="border-radius: 50%;"/>    |
-| **Justin John Navarro**       | <img src="assets/groupmate1.jpg" alt="[Other Groupmate Name 1]" width="150" style="border-radius: 50%;"/> |
-| **Joshua C. Sayon**           | <img src="assets/Sayon.jpg" alt="[Other Groupmate Name 2]" width="150" style="border-radius: 50%;"/>      |
+| **Name**                      | **Picture**                                                                                            |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Vivencio B. Bataga II**     | <img src="assets/Bataga.jpg" alt="Vivencio Bataga II" width="150" style="border-radius: 50%;"/>        |
+| **Tristan Vincent C. Lemana** | <img src="assets/Lemana.jpg" alt="Tristan Vincent C. Lemana" width="150" style="border-radius: 50%;"/> |
+| **Justin John Navarro**       | <img src="assets/Navarro.png" alt="[Other Groupmate Name 1]" width="150" style="border-radius: 50%;"/> |
+| **Joshua C. Sayon**           | <img src="assets/Sayon.jpg" alt="[Other Groupmate Name 2]" width="150" style="border-radius: 50%;"/>   |
