@@ -111,7 +111,7 @@ inventory-management-system/
 
 ### Home Page
 
-![Home Page](Home.png)
+![Home Page](assets/Home.png)
 
 ---
 
